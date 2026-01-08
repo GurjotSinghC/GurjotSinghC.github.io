@@ -2,50 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Gurjot Singh's Portfolio</title>
-  
+  <title>Gurjot Singh's Corner of the Quantum World</title>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <style>
+    /* General Page Styling */
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       line-height: 1.6;
-      max-width: 850px;
-      margin: 40px auto;
+      color: #333;
+      max-width: 900px;
+      margin: 0 auto;
       padding: 20px;
-      background-color: #ffffff;
+      background-color: #f9f9f9;
     }
-    h2 { color: #0056b3; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
-    p { font-family: "Georgia", serif; font-size: 1.1rem; color: #444; }
     .equation-box {
       background: #f4f4f4;
       padding: 15px;
       border-radius: 5px;
       margin: 20px 0;
     }
+
+    /* Header & Navigation */
+    header {
+      border-bottom: 2px solid #0056b3;
+      padding-bottom: 10px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #0056b3;
+      margin-bottom: 30px;
+    }
+
+    /* Headings */
+    h1 {
+      color: #222;
+      font-size: 2.2rem;
+    }
+
+    h2 {
+      color: #0056b3;
+      border-left: 5px solid #0056b3;
+      padding-left: 15px;
+      margin-top: 40px;
+    }
+
+    /* Paragraph Styling for Engineering Content */
+    p {
+      font-family: "Georgia", serif; /* Better for reading long technical descriptions */
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    /* Image Styling */
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Technical Highlight (Optional) */
+    .formula {
+      font-family: "Courier New", monospace;
+      background: #eee;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
   </style>
 </head>
 
 <body>
-  <header><strong>Gurjot Singh Portfolio</strong></header>
+  <header>Gurjot Singh Portfolio</header>
 
-  <h2>Project 1: Time-Resolved Photoluminescence</h2>
+  <h1>Welcome To Gurjot Singh's Portfolio</h1>
+  <p><em>Graduating in 2027</em></p>
+
+  <h2>Project 1: Time-Resolved Photoluminescence with CW Lasers</h2>
   
-  <p>
-    In quantum mechanics, we describe the intensity of the light emission over time. 
-    Since "everything is a wave," we often model the decay of carriers using an exponential 
-    relationship. The intensity \( I(t) \) at any given time \( t \) can be expressed as:
-  </p>
+  <img src="poster.jpg" alt="Poster Image" width="65%">
 
+  <p>
+    In this project, I am exploring the dynamics of electron-hole recombination using Continuous Wave (CW) lasers. 
+    By analyzing the decay of light emission, we can better understand the quantum efficiency of semiconductor materials. 
+    This project was started this semester and focuses on the intersection of optical physics and material science.
+  </p>
   <div class="equation-box">
     $$ I(t) = I_0 e^{-t/\tau} $$
   </div>
-
-  <p>
-    Where \( \tau \) represents the carrier lifetime. By using CW lasers and sophisticated 
-    timing electronics, we can extract these lifetimes to determine material purity.
-  </p>
 
 </body>
 </html>
